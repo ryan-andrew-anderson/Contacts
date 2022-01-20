@@ -47,7 +47,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="contactName" destination="Ugg-zx-ZH8" id="req-Kq-PQ3"/>
-                                            <segue destination="Piz-XL-RRE" kind="show" id="5a0-Fd-2ss"/>
+                                            <segue destination="Piz-XL-RRE" kind="show" identifier="toContact" id="5a0-Fd-2ss"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -65,7 +65,7 @@
                     <navigationItem key="navigationItem" title="Contacts" id="4Hj-aD-8G4">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Zth-Sn-xO9">
                             <connections>
-                                <segue destination="Piz-XL-RRE" kind="show" id="kzn-C1-New"/>
+                                <segue destination="Piz-XL-RRE" kind="show" identifier="addContact" id="kzn-C1-New"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

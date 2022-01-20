@@ -51,6 +51,13 @@ extension ViewController: UITableViewDataSource {
             print("Insert editing style")
         }
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toContact" {
+            print("Editing Contact")
+        } else if segue.identifier == "addContact" {
+            print("Adding Contact")
+        }
+    }
 }
 
 extension ViewController: UISearchBarDelegate {
